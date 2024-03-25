@@ -1,0 +1,195 @@
+/* ESTILO GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(33, 23, 39);
+    height: 100vh;
+    font-size: 62,5%;
+}
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    text-transform: uppercase;
+}
+.flex{
+    display: flex;  
+}
+h2.titulo{
+    color: white;
+    font-size: 3.8rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2.titulo span{
+    color: crimson;
+}
+button:hover{
+    box-shadow: 0 0 0.8rem #e22885;
+    transform: scale(1.05);
+}
+/* ESTILO CABEÇALHO */
+header{
+    padding: 4.8rem 4%;
+}
+.header_logo{
+    font-size: 3rem;
+    font-family: "Dancing Script", cursive;
+    margin-left: 1rem;
+    color: crimson;  
+    text-transform: lowercase;  
+} 
+header a{
+    color: rgb(202, 201, 201);
+    text-decoration: none;
+    display: inline-block;
+}
+header a:hover{
+    color: white;
+    transform: scale(1.05);
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 3.5rem;
+}
+header .btn-contato button{
+    padding: 1rem 4rem;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: crimson;
+    color: white;
+    text-shadow: 0;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+/* ESTILO DO TOPO DO SITE */
+section.topo-do-site{
+    padding: 4rem 4%;
+}
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+
+}
+.topo-do-site .txt-topo-site h1{
+    font-size: 4rem;
+    color: crimson;
+    line-height: 6rem;
+}
+.topo-do-site .txt-topo-site p{
+    font-size: 2rem;
+    color: white;
+}
+.img-topo-site img{
+    width: 80%;
+    border-radius: 50%;
+}
+section .btn-contato button{
+    margin: 4rem 4%;
+    padding: 1rem 4rem;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 600;
+    background-color: crimson;
+    color: white;
+    text-shadow: 0;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+section .btn-contato button:hover{
+    box-shadow: 0 0 0.8rem #e22885;
+}
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuante 2s ease-in-out infinite alternate;
+
+}
+@keyframes flutuante{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 3.8rem;
+    }
+}
+/* ESTILO DAS ESPECIALIDADES */
+section.especialidades{
+    padding: 4rem 4%;
+    display: flex;
+}
+section.especialidades .flex{
+    gap: 6rem;
+
+}
+.especialidades .especialidades-box{
+    color: white;
+    padding: 4.5rem;
+    border: 0.2rem solid white;
+    margin-top: 3rem;
+    border-radius: 5rem;
+    transition: .2s;
+}
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 1rem rgba(220, 20, 60, 0.473);
+}
+.especialidades .especialidades-box i{
+    font-size: 6rem;
+    color: crimson;
+}
+.especialidades .especialidades-box h3{
+    font-size: 2.8rem;
+    margin: 1.5rem 0; 
+}
+/* ESTILO DO SOBRE */
+section.sobre{
+    padding: 4rem 4%;
+
+}
+section.sobre img{
+    width: 100%;
+    border-radius: 10%;
+}
+section.sobre .flex{
+    align-items: center;
+    gap: 6rem;
+}
+.sobre .txt-sobre{
+    color: white;
+}   
+.sobre .txt-sobre h2{
+    font-size: 4rem;
+    line-height: 4rem;
+    margin-bottom: 3rem;
+}
+.sobre .txt-sobre h2 span{
+    color: crimson;
+    display: block;
+}
+.sobre .txt-sobre p{
+    margin: 2rem 0;
+    text-transform: none;
+    font-size: 1.2rem;
+    text-align: justify;
+} 
+.sobre .txt-sobre .btn-social button{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: none;
+    background-color: crimson;
+    font-size: 2.2rem;
+    cursor: pointer;
+    margin: 0 .4rem;
+}
