@@ -193,3 +193,46 @@ section.sobre .flex{
     cursor: pointer;
     margin: 0 .4rem;
 }
+.btn-social button{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: none;
+    background-color: crimson;
+    font-size: 2.2rem;
+    cursor: pointer;
+    margin: 0 .4rem;
+    transition: .2s;
+}
+/* MEU PORTFOLIO */
+section.portfolio {
+    padding: 8rem 4%;
+    box-shadow: 0 0 4rem 1rem rgba(220, 20, 60, 0.377);
+}
+/* ESTILO DO RODAPE */
+footer .logo-footer{
+    font-size: 3rem;
+    font-family: "Dancing Script", cursive;
+    margin-left: 1rem;
+    color: crimson;  
+    text-transform: lowercase;  
+}
+footer .line-footer p {
+   
+}
+footer .line-footer p i{
+    color: crimson;
+    font-size: 1rem;
+    align-items:self-end;
+}
+footer .line-footer p a{
+    color: rgb(151, 77, 112);
+    text-transform: lowercase;
+    font-size: 1.2rem;
+}
+@media screen and (max-widht:1020px){
+    .header_nav, .btn-contato{
+        display: none;
+
+    }
+}
